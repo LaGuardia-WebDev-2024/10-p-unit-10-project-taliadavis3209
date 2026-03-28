@@ -16,15 +16,11 @@ html{
 
 #myCanvas1 {
   border: 1px solid black;
-  background-image: url("supermarket-interior-shelf_165488-3982.avif");
+  background-image: url("https://cdn.eso.org/images/screen/eso1019a.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#myCanvas2 {
-  border: 1px solid black;
-  border-radius: 30px;
-}
 
 
