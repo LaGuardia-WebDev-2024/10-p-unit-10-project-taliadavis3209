@@ -17,6 +17,12 @@ var whisp = "💫";
 var whispTotal = 3;
 var whispFound = 0;
 
+var x = 0;
+while(x < 400) {
+  text("🪐", x, 340);
+  x += 30;
+}
+
 
 setup = function() {
    size(600, 450); 
@@ -103,5 +109,5 @@ var reset = function(){
     whispXPos.push(random(0,600));
     whispYPos.push(random(0,400));
   }
- 
+   
 }
