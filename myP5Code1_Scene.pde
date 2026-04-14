@@ -44,6 +44,7 @@ draw = function(){
 
 mouseClicked = function(){
   check(mouseX, mouseY);
+  text("⭐️", mouseX, mouseY)
 }
 
 var check = function(xClick, yClick){
